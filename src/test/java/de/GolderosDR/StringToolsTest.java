@@ -35,7 +35,7 @@ class StringToolsTest {
     }
 
     @Nested
-    @Name("Тесты для метода isStartingFromCapital")
+    @DisplayName("Тесты для метода isStartingFromCapital")
     class ForIsStartingFromCapitalTests {
         @Test
         void true_Apple_isStartingFromCapital() {
